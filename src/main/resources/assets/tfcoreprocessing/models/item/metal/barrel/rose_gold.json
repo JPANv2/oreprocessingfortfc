@@ -1,0 +1,11 @@
+{
+   "parent": "tfcoreprocessing:block/metal/barrel/rose_gold",
+   "overrides": [
+     {
+       "predicate": {
+         "tfc:sealed": 1.0
+       },
+       "model": "tfcoreprocessing:block/metal/barrel_sealed/rose_gold"
+     }
+   ]
+ }

@@ -1,0 +1,8 @@
+{
+  "parent": "tfc:block/barrel_sealed",
+  "textures": {
+    "particle": "tfc:block/metal/block/red_steel",
+    "planks": "tfc:block/metal/block/red_steel",
+    "sheet": "tfc:block/metal/block/red_steel"
+  }
+}

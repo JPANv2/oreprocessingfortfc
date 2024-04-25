@@ -1,0 +1,76 @@
+{
+	"name": "Specialized Forge Fuels",
+	"category": "tfc:mechanics",
+	"icon": "tfcoreprocessing:kindle/coke_briquette",
+	"pages" : [
+	{
+		"type": "patchouli:text",
+		"text": "Your forge is limited to burning Coal-based fuels. This usually means $(thing)Charcoal$(), but also dug up coals like $(thing)Bituminous Coal$() or $(thing)Lignite$(). In this chapter, we will see processed versions of these fuels."
+	},
+	{
+      "type": "patchouli:spotlight",
+      "anchor": "charcoal_pellets",
+      "item": "tfcoreprocessing:kindle/charcoal_pellets",
+      "title": "Coal Pellets",
+      "link_recipes": false,
+      "text": "Just like lumber, $(thing)Charcoal$() can be ground up into a powder. That powder can be compressed again, to make $(thing)Charcoal Pellets$(). These burn for slightly longer than regular coal, at the expense of quern durability."
+  },
+	{
+      "type": "tfc:quern_recipe",
+      "recipe": "tfcoreprocessing:quern/kindle/coal_dust_lignite",
+      "title": "Grinding Coals",
+      "text": "In order to make coal pellets, you need to ground up $(thing)Charcoal$(), $(thing)Bituminous Coal$() or $(thing)Lignite$() in a $(thing)Quern$() . Bituminous coal has bigger yield (6 dust) compared to Lignite."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Coke",
+      "text": "Coke is a form of proceesed coal where the coal is burned in similar conditions to charcoal(airless environment) in order to purify it, producing greater temperatures."
+    },
+    {
+      "type": "tfc:heat_recipe",
+      "recipe": "tfcoreprocessing:heating/coke_baking",
+      "text": "$(thing)Coal Dust$() can be heated up at any place to burn out and become $(thing)Coke Dust$(). There is a 20% chance that the Coal Dust will burn to nothing, otherwise, it will turn into coke."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfcoreprocessing:compress/coke_pellets",
+      "text": "$(thing)Coke Powder$() needs to be compressed into $(thing)Coke Pellets$() in order to be burnable. Same with $(thing)Coal Powder$() for $(thing)Coal Pellets$(). You can also compress $(thing)Graphite Pellets$(), but those cannot burn by themselves."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Briquettes",
+      "recipe": "tfcoreprocessing:compress/charcoal_briquette",
+      "text": "Compressing those pellets further using some glue will give you $(thing)Briquettes$(). They burn for 5 times as long as the pellets they are made of, and can be stored in log piles!"
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Special Briquettes",
+      "text": "Some Briquettes can be a mix of two or more types of Pellets. These mixes will be detailed here."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Coke-Charcoal Briquette",
+      "recipe": "tfcoreprocessing:compress/coke_charcoal_briquette",
+      "text": "Using half Charcoal, Half Coke, you can produce a briquette that burns higher than charcoal for a longer duration."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Diluted Charcoal Briquette",
+      "recipe": "tfcoreprocessing:compress/charcoal_wood_briquette",
+      "text": "Using half Charcoal, Half Wood, you can produce a briquette that burns at a lower temperature than charcoal for a longer duration. It burns below the melting point of bronze"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "Low Temperature Charcoal Briquette",
+      "recipe": "tfcoreprocessing:compress/low_charcoal_briquette",
+      "text": "Using 1/4 Charcoal, 3/4 Wood, you can produce a briquette that burns at a even lower temperature than charcoal for an even longer duration! It burns at a slightly higher temperature than $(thing)Bamboo Firelogs$(), and can also be used in the Firepit."
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "High-Intensity Charcoal Briquette",
+      "recipe": "tfcoreprocessing:compress/charcoal_graphite_briquette",
+      "text": "Using 6 Charcoal, for a Graphite and a Coke, you can produce a briquette that burns at a impossibly high temperature for a shorter duration."
+    }
+    ],
+	"read_by_default": true
+}

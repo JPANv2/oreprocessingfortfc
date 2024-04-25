@@ -1,0 +1,11 @@
+{
+   "parent": "tfcoreprocessing:block/metal/barrel/sterling_silver",
+   "overrides": [
+     {
+       "predicate": {
+         "tfc:sealed": 1.0
+       },
+       "model": "tfcoreprocessing:block/metal/barrel_sealed/sterling_silver"
+     }
+   ]
+ }

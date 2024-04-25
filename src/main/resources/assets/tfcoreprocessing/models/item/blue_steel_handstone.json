@@ -1,0 +1,12 @@
+{
+
+   "parent": "tfcoreprocessing:item/blue_steel_handstone_healthy",
+   "overrides": [
+     {
+       "predicate": {
+         "tfc:damaged": 1.0
+       },
+       "model": "tfcoreprocessing:item/blue_steel_handstone_damaged"
+     }
+   ]
+ }

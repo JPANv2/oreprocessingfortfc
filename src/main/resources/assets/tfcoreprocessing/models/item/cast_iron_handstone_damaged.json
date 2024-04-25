@@ -1,0 +1,8 @@
+   {
+      "parent": "tfc:item/handstone_healthy",
+      "textures": {
+        "handstone": "tfc:block/devices/quern/cast_iron/handstone_top_damaged",
+        "particle": "tfc:block/devices/quern/cast_iron/handstone_top_damaged",
+        "side": "tfc:block/devices/quern/cast_iron/handstone_side_damaged"
+      }
+    }

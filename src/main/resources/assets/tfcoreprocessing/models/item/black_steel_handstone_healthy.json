@@ -1,0 +1,9 @@
+ {
+      "parent": "tfc:item/handstone_healthy",
+      "textures": {
+        "3": "tfcoreprocessing:block/devices/quern/black_steel/handstone_bottom",
+          "side": "tfcoreprocessing:block/devices/quern/black_steel/handstone_side",
+          "particle": "tfcoreprocessing:block/devices/quern/black_steel/handstone_top",
+          "handstone": "tfcoreprocessing:block/devices/quern/black_steel/handstone_top"
+      }
+    }

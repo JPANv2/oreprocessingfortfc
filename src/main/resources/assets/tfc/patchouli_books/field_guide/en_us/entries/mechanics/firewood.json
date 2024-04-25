@@ -1,0 +1,51 @@
+{
+	"name": "Pellets and Firelogs",
+	"category": "tfc:mechanics",
+	"icon": "tfcoreprocessing:kindle/firelog",
+	"pages" : [
+	{
+		"type": "patchouli:text",
+		"text": "Wood is not the most efficient fuel. It burns for enough for most recipes, but intensive burning can leave you without logs very quickly."
+	},
+	{
+      "type": "patchouli:spotlight",
+      "anchor": "wood_pellets",
+      "item": "tfcoreprocessing:kindle/wood_pellets",
+      "title": "Fire Pellets",
+      "link_recipes": false,
+      "text": "$(thing)Fire Pellets$() are a much more efficient fuel, that burns for about as much as a log, but for about half the cost."
+    },
+	{
+      "type": "tfc:quern_recipe",
+      "recipe": "tfcoreprocessing:quern/kindle/lumber_sawdust",
+      "anchor": "wood_grinding",
+      "title": "Grinding Lumber",
+      "text": "You can turn your lumber into $(thing)Fire Pellets$() using a $(l:mechanics/quern)Quern$(). This powder is not ready to burn, it needs to be compressed first."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfcoreprocessing:compress/wood_pellets",
+      "text": "Compressing the powder gives you a group of $(thing)Fire Pellets$(), that burn as much as a Maple Log."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfcoreprocessing:compress/firelog",
+      "text": "Compressing those pellets further using some glue will give you $(thing)Firelogs$(). They burn for 5 times as long as the pellets they are made of, and can be used as logs in the $(l:getting_started/pit_kiln)Pit Kiln$(), and even stored in log piles!"
+    },
+    {
+      "type": "tfc:quern_recipe",
+      "recipe": "tfcoreprocessing:quern/kindle/bamboo_fiber",
+      "text": "You can turn bamboo into $(thing)Fire Pellets$() too! However, they burn for about half the time as regular pellets."
+    },
+    {
+      "type": "tfc:quern_recipe",
+      "recipe": "tfcoreprocessing:quern/kindle/palm_wood_fiber",
+      "text": "Most logs need to be turned to lumber to be ground up. Exception is the $(thing)Palm Log$(). Due to being much more efficient and caloric than regular wood, it is better to convert these logs directly to fibers."
+    },
+    {
+		"type": "patchouli:text",
+		"text": "Please be careful, as palm fibers are only extracted from the log, not the palm lumber. As such, if you want the $(thing)Palm Fire Pellets$(), grind the log and not the lumber!. They are worth it, as they burn 3 times more than the log itself, up to 15 minutes in its firelog! They burn at a lower temperature, though."
+	}
+    ],
+	"read_by_default": true
+}

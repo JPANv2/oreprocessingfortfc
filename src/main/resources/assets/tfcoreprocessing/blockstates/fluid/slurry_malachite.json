@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tfcoreprocessing:block/fluid/slurry_malachite"
+    }
+  }
+}

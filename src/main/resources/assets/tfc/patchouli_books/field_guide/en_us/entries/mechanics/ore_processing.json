@@ -1,0 +1,51 @@
+{
+	"name": "Ore Processing",
+	"category": "tfc:mechanics",
+	"icon": "tfcoreprocessing:refined/native_gold",
+	"pages" : [
+	{
+		"type": "patchouli:text",
+		"text": "$(l:the_world/ores_and_minerals)Ores$() can be $(l:getting_started/finding_ores)smelted$() and $(l:getting_started/finding_ores)cast$() directly, at first using a $(l:getting_started/pottery#vessel)Small Vessel$() and firing it in a $(l:getting_started/pit_kiln)Pit Kiln$() or in a $(l:mechanics/charcoal_forge)Charcoal Forge$().However, ores can be processed to further increase their yield!"
+	},
+	{
+      "type": "tfc:quern_recipe",
+      "recipe": "tfc:quern/small_native_gold",
+      "anchor": "ore_grinding",
+      "title": "Ore Grinding",
+      "text": "Ore processing starts with a $(l:mechanics/quern)Quern$(). You can turn ores into powders, increasing their yield by 20%! Each powder is worth 6$(thing)mB$()."
+    },
+     {
+      "type": "tfc:sealed_barrel_recipe",
+      "anchor": "slurry",
+      "recipe": "tfcoreprocessing:barrel/slurry/slurry_native_gold",
+      "text": "The next step in the process is the creation of $(thing)Ore Slurry$(). This liquid is composed of the powdered ore in water. After a while in a sealed barrel, the ore powder becomes a liquid. It takes 250mB of water per powder for making 250mB of slurry."
+    },
+   {
+      "type": "patchouli:spotlight",
+      "anchor": "frothing",
+      "item": "tfc:pan/empty",
+      "title": "Frothing",
+      "link_recipes": false,
+      "text": "After you have a slurry, take a bucket of it and place it in a pot with an empty pan, and let it boil for a few minutes. This will generate 4 Refined Ore Powders, each worth 8mB each. Don't worry, you'll get your pan back..."
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "tfcoreprocessing:compress/compress_refined_native_gold",
+      "text": "Compressing the powder further refines it to increase its yield to 40mB, but is not the final step of the process."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "anchor": "roasting",
+      "item": "tfcoreprocessing:roasted_brick/native_gold",
+      "title": "Roasting",
+      "link_recipes": false,
+      "text": "You can further roast the resulting ore, by placing one to five compressed powders in the pot, with a small amount of water (100mB). This will result in a sturdy brick worth 50mB of ore, or almost 2.5 times the amount we started with!"
+    },
+     {
+      "type": "patchouli:crafting",
+      "recipe": "tfcoreprocessing:uncompress/uncompress_roasted_native_gold",
+      "text": "It is possible to split the result into 5 10mB pieces of Roasted Powder, but doing so requires a hammer."
+    }
+	],
+	"read_by_default": true
+}

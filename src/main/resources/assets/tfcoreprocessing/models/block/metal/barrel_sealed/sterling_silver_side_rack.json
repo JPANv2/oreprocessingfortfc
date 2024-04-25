@@ -1,0 +1,8 @@
+{
+   "parent": "tfc:block/barrel_side_sealed_rack",
+   "textures": {
+     "particle": "tfc:block/metal/block/sterling_silver",
+     "planks": "tfc:block/metal/block/sterling_silver",
+     "sheet": "tfc:block/metal/block/sterling_silver"
+   }
+ }

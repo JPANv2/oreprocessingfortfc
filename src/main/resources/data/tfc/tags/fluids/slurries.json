@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+   "tfcoreprocessing:slurry_bismuthinite",
+"tfcoreprocessing:slurry_cassiterite",
+"tfcoreprocessing:slurry_garnierite",
+"tfcoreprocessing:slurry_hematite",
+"tfcoreprocessing:slurry_limonite",
+"tfcoreprocessing:slurry_magnetite",
+"tfcoreprocessing:slurry_malachite",
+"tfcoreprocessing:slurry_native_copper",
+"tfcoreprocessing:slurry_native_gold",
+"tfcoreprocessing:slurry_native_silver",
+"tfcoreprocessing:slurry_sphalerite",
+"tfcoreprocessing:slurry_tetrahedrite"  ]
+}

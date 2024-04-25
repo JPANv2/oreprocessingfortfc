@@ -1,0 +1,8 @@
+{
+   "parent": "tfc:block/barrel_side",
+   "textures": {
+     "particle": "tfc:block/metal/block/pig_iron",
+     "planks": "tfc:block/metal/block/pig_iron",
+     "sheet": "tfc:block/metal/block/pig_iron"
+   }
+ }

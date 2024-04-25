@@ -1,0 +1,11 @@
+{
+   "parent": "tfcoreprocessing:block/metal/barrel/bismuth_bronze",
+   "overrides": [
+     {
+       "predicate": {
+         "tfc:sealed": 1.0
+       },
+       "model": "tfcoreprocessing:block/metal/barrel_sealed/bismuth_bronze"
+     }
+   ]
+ }

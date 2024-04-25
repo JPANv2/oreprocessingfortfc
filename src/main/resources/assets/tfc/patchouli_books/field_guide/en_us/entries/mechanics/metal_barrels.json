@@ -1,0 +1,17 @@
+{
+	"name": "Metal Barrels",
+	"category": "tfc:mechanics",
+	"icon": "tfcoreprocessing:metal/barrel/gold",
+	"pages" : [
+	{
+		"type": "patchouli:text",
+		"text": "Metal barrels only have one advantage over regular, wooden barrels: they don't burn. You can safely place them near a forge or firepit. They are much more expensive, though"
+	},
+	{
+    "type": "patchouli:crafting",
+    "recipe": "tfcoreprocessing:metal/barrel/steel_barrel",
+    "text": "It requires 7 sheets of the desired metal, which is the same amount as an anvil, only worked further. They come in (almost) all metal variants!"
+  }
+	],
+	"read_by_default": true
+}

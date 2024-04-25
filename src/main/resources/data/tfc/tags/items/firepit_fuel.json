@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#tfcoreprocessing:firelogs",
+    "#tfcoreprocessing:wood_pellets",
+    "tfcoreprocessing:kindle/low_charcoal_briquette"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "tfc:block/barrel_sealed",
+  "textures": {
+    "particle": "tfc:block/metal/block/bismuth_bronze",
+    "planks": "tfc:block/metal/block/bismuth_bronze",
+    "sheet": "tfc:block/metal/block/bismuth_bronze"
+  }
+}

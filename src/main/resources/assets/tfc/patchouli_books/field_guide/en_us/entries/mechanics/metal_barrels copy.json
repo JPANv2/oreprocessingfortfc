@@ -1,0 +1,22 @@
+{
+	"name": "Metal Handstones",
+	"category": "tfc:mechanics",
+	"icon": "tfcoreprocessing:cast_iron_handstone",
+	"pages" : [
+	{
+		"type": "patchouli:text",
+		"text": "The raw stone quern handstone is cheap, but not very durable. With all the ore and fuel processing steps, you would run out of them pretty quickly."
+	},
+	{
+    "type": "patchouli:crafting",
+    "recipe": "tfcoreprocessing:cast_iron_handstone",
+    "text": "With 3 Double Ingots of a durable material (iron tier or up) and a stick, you can build a much more durable counterpart to the stone handstone!"
+  },
+  {
+    "type": "patchouli:crafting",
+    "recipe": "tfcoreprocessing:red_steel_handstone",
+    "text": "The Red and Blue Steel variants seem to last forever!"
+  }
+	],
+	"read_by_default": true
+}

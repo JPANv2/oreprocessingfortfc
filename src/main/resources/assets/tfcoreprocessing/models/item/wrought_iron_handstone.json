@@ -1,0 +1,12 @@
+{
+
+   "parent": "tfcoreprocessing:item/wrought_iron_handstone_healthy",
+   "overrides": [
+     {
+       "predicate": {
+         "tfc:damaged": 1.0
+       },
+       "model": "tfcoreprocessing:item/wrought_iron_handstone_damaged"
+     }
+   ]
+ }

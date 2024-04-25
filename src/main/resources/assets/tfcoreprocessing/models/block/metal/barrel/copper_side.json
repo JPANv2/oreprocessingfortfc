@@ -1,0 +1,8 @@
+{
+   "parent": "tfc:block/barrel_side",
+   "textures": {
+     "particle": "tfc:block/metal/block/copper",
+     "planks": "tfc:block/metal/block/copper",
+     "sheet": "tfc:block/metal/block/copper"
+   }
+ }
