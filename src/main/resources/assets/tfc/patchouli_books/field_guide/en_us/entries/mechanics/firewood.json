@@ -20,7 +20,7 @@
       "recipe": "tfcoreprocessing:quern/kindle/lumber_sawdust",
       "anchor": "wood_grinding",
       "title": "Grinding Lumber",
-      "text": "You can turn your lumber into $(thing)Fire Pellets$() using a $(l:mechanics/quern)Quern$(). This powder is not ready to burn, it needs to be compressed first."
+      "text": "You can turn your lumber into $(thing)Fire Pellets$() using a $(l:mechanics/quern)Quern$(). This powder is not ready to burn, it needs to be compressed first. Thatch is another, less efficient way to get it. If you can get Bark or Bast, you can grind that too! Sawdust is ready to use to make pellets."
     },
     {
       "type": "patchouli:crafting",
@@ -40,7 +40,7 @@
     {
       "type": "tfc:quern_recipe",
       "recipe": "tfcoreprocessing:quern/kindle/palm_wood_fiber",
-      "text": "Most logs need to be turned to lumber to be ground up. Exception is the $(thing)Palm Log$(). Due to being much more efficient and caloric than regular wood, it is better to convert these logs directly to fibers."
+      "text": "Most logs need to be turned to lumber to be ground up. Exception is the $(thing)Palm Log$(). Due to being much more efficient and caloric than regular wood, it is better to convert these logs directly to fibers. If you can get Bark or Bast, you can grind that too!"
     },
     {
 		"type": "patchouli:text",

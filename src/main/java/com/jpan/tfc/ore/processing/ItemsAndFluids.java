@@ -1,16 +1,13 @@
 package com.jpan.tfc.ore.processing;
 
-import com.jpan.tfc.ore.processing.fluid.Slurries;
-import com.jpan.tfc.ore.processing.mixin.BlockEntityTypeAccessor;
 
-import java.util.HashSet;
 import java.util.Locale;
 import java.util.Map;
-import java.util.Set;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
-import java.util.stream.Stream;
+
+import com.jpan.tfc.ore.processing.fluid.Slurries;
 
 import net.dries007.tfc.common.TFCCreativeTabs;
 import net.dries007.tfc.common.blockentities.BarrelBlockEntity;
@@ -21,9 +18,9 @@ import net.dries007.tfc.common.blocks.rock.Ore;
 import net.dries007.tfc.common.fluids.ExtendedFluidType;
 import net.dries007.tfc.common.fluids.FluidRegistryObject;
 import net.dries007.tfc.common.fluids.FluidTypeClientProperties;
-import net.dries007.tfc.common.fluids.TFCFluids;
 import net.dries007.tfc.common.fluids.MixingFluid.Flowing;
 import net.dries007.tfc.common.fluids.MixingFluid.Source;
+import net.dries007.tfc.common.fluids.TFCFluids;
 import net.dries007.tfc.common.items.BarrelBlockItem;
 import net.dries007.tfc.util.Helpers;
 import net.dries007.tfc.util.Metal;
@@ -32,12 +29,9 @@ import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.entity.BlockEntityType;
-import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
@@ -55,6 +49,7 @@ import net.minecraftforge.registries.RegistryObject;
    bus = Bus.MOD
 )
 public class ItemsAndFluids {
+	
    public static final Map<Slurries, RegistryObject<LiquidBlock>> SLURRY_FLUIDS_BLOCKS = Helpers.mapOfKeys(Slurries.class, fluid -> registerSlurryBlock(fluid));
    public static final Map<Slurries, RegistryObject<BucketItem>> SLURRY_FLUIDS_BUCKETS = Helpers.mapOfKeys(Slurries.class, fluid -> registerSlurryBucket(fluid));
    public static final Map<Slurries, FluidRegistryObject<ForgeFlowingFluid>> SLURRY_FLUIDS = Helpers.mapOfKeys(
@@ -110,7 +105,7 @@ public class ItemsAndFluids {
    public static final RegistryObject<Item> HANDSTONE_BLUE_STEEL = registerSimpleItem("blue_steel_handstone");*/
 
    public static final Map<BarrelMetals, RegistryObject<BarrelBlock>> BARRELS = Helpers.mapOfKeys(BarrelMetals.class, barrel -> registerBarrel("metal/barrel/" + barrel.name())); 
-
+   
    private static enum BarrelMetals{
       bismuth,
       bismuth_bronze,

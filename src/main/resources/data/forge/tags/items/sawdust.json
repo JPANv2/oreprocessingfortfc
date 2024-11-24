@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "tfcoreprocessing:kindle/sawdust"
+    "tfcoreprocessing:kindle/sawdust",
+	{
+      "id": "tfcwoodwork:sawdust",
+      "required": false
+    }
+	
   ]
 }
